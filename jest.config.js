@@ -1,8 +1,8 @@
 module.exports = {
-	testMatch: ['./src/**/*.test.js'],
+	testMatch: ['<rootDir>/src/**/*.test.js'],
 	moduleNameMapper: {
-		'^~/(.*)$': './src/$1'
+		'^~/(.*)$': '<rootDir>/src/$1'
 	},
 	setupFilesAfterEnv: ['jest-extended'],
-	coverageDirectory: './test-coverage'
+	coverageDirectory: '<rootDir>/test-coverage'
 };
