@@ -1,5 +1,11 @@
 # Changelog
 
+## [v1.0.3](https://github.com/rayinaway/node-package-starter/compare/v1.0.2...v1.0.3)
+
+### Other
+
+- Empty _`src`_ directory will not longer get untracked.
+
 ## [v1.0.2](https://github.com/rayinaway/node-package-starter/compare/v1.0.1...v1.0.2)
 
 ### Fixes
