@@ -1,5 +1,11 @@
 # Changelog
 
+## [v1.0.4](https://github.com/rayinaway/node-package-starter/compare/v1.0.3...v1.0.4)
+
+### Other
+
+- Readme tweaked.
+
 ## [v1.0.3](https://github.com/rayinaway/node-package-starter/compare/v1.0.2...v1.0.3)
 
 ### Other
