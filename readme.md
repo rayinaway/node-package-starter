@@ -1,4 +1,4 @@
-# node-package-starter
+# @rayinaway / node-package-starter
 
 A highly opinionated starter project for developing Node.js packages. Features:
 
@@ -21,7 +21,7 @@ Changes are listed in the [changelog](./changelog.md). The repository is hosted 
 
 1. Copy the project files to your future project's directory.
 
-2. Replace `__PLACEHOLDER__` values in _`package.json`_ with your own meaningful ones. The `source` field should point to one or more entry files for Parcel to start building the package at, as described [here](https://parceljs.org/features/targets/#entries).
+2. Replace `__PLACEHOLDER__` values in _`package.json`_ and _`package-lock.json`_ with your own meaningful ones. The `source` field should point to one or more entry files for Parcel to start building the package at, as described [here](https://parceljs.org/features/targets/#entries).
 
 3. Unless the built package is intended to be consumed as static files only (e.g., a browser app), additional fields in _`package.json`_ pointing to various build artifacts may be necessary. The details on how Parcel use them can be found [here](https://parceljs.org/features/targets/#library-targets).
 
