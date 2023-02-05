@@ -3,7 +3,7 @@ module.exports = {
 	moduleNameMapper: {
 		'^~/(.*)$': '<rootDir>/src/$1'
 	},
-	setupFilesAfterEnv: ['<rootDir>/src/test-setup.js'],
+	setupFilesAfterEnv: ['<rootDir>/test/setup.js'],
 	restoreMocks: true,
 	coverageDirectory: '<rootDir>/test-coverage'
 };
