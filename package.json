@@ -30,7 +30,7 @@
 		"typescript": "^4.9.4"
 	},
 	"scripts": {
-		"build": "npm run typecheck && node ./scripts/prebuild.js && parcel build --public-url \".\" --no-source-maps",
+		"build": "npm run typecheck && node ./scripts/prebuild.js && parcel build --public-url \".\" --no-source-maps --dist-dir \"./build\"",
 		"lint": "npm-run-all \"lint:*\" --parallel --continue-on-error --aggregate-output",
 		"lint:ts": "eslint \"./src/**/*.{ts,tsx}\"",
 		"postinstall": "is-ci || husky install",
@@ -40,10 +40,5 @@
 		"test-watch": "jest --watch",
 		"typecheck": "tsc --noEmit"
 	},
-	"source": "__PLACEHOLDER__",
-	"targets": {
-		"default": {
-			"distDir": "./build"
-		}
-	}
+	"source": "__PLACEHOLDER__"
 }
