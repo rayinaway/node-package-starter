@@ -1,5 +1,21 @@
 # Changelog
 
+## [v1.1.0](https://github.com/rayinaway/node-package-starter/compare/v1.0.6...v1.1.0)
+
+### Features
+
+- TypeScript reset added.
+- Asset mocking implemented.
+
+### Other
+
+- ESLint configuration tweaked:
+  - TypeScript namespaces no longer prohibited.
+- Jest configuration tweaked.
+- Property structure in _`package.json`_ tweaked.
+- Package dependencies updated.
+- Readme tweaked.
+
 ## [v1.0.6](https://github.com/rayinaway/node-package-starter/compare/v1.0.5...v1.0.6)
 
 ### Fixes
@@ -27,7 +43,7 @@
 
 ### Other
 
-- Empty _`src`_ directory will not longer get untracked.
+- Empty _`src`_ directory will no longer get untracked.
 
 ## [v1.0.2](https://github.com/rayinaway/node-package-starter/compare/v1.0.1...v1.0.2)
 
