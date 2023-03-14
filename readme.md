@@ -23,7 +23,7 @@ Changes are listed in the [changelog](./changelog.md). The repository is hosted 
 
 2. Replace `__PLACEHOLDER__` values in _`package.json`_ and _`package-lock.json`_ with your own meaningful ones. The `source` field should point to one or more entry files for Parcel to start building the package at, as described [here](https://parceljs.org/features/targets/#entries).
 
-3. Unless the built package is intended to be consumed as static files only (e.g., a browser app), additional fields in _`package.json`_ pointing to various build artifacts may be necessary. The details on how Parcel use them can be found [here](https://parceljs.org/features/targets/#library-targets).
+3. If the built package is intended to be consumed by another package, additional target configuration in _`package.json`_ may be needed. The details on how Parcel use target fields can be found [here](https://parceljs.org/features/targets/#library-targets).
 
 4. Optionally, run the following command to update the package dependencies:
 
