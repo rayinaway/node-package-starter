@@ -1,10 +1,20 @@
 # Changelog
 
+## [v1.1.1](https://github.com/rayinaway/node-package-starter/compare/v1.1.0...v1.1.1)
+
+### Other
+
+- `build` package script tweaked.
+- TypeScript configuration tweaked.
+- Several naming issues fixed.
+- @total-typescript/ts-reset moved to dependencies.
+- Package dependencies updated.
+
 ## [v1.1.0](https://github.com/rayinaway/node-package-starter/compare/v1.0.6...v1.1.0)
 
 ### Features
 
-- TypeScript reset added.
+- [TypeScript reset](https://www.npmjs.com/package/@total-typescript/ts-reset) added.
 - Asset mocking implemented.
 
 ### Other
