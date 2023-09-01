@@ -1,5 +1,12 @@
 # Changelog
 
+## [v1.1.2](https://github.com/rayinaway/node-package-starter/compare/v1.1.1...v1.1.2)
+
+### Other
+
+- pretty-quick replaced with lint-staged.
+- Package dependencies updated.
+
 ## [v1.1.1](https://github.com/rayinaway/node-package-starter/compare/v1.1.0...v1.1.1)
 
 ### Other
