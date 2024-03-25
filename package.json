@@ -40,7 +40,7 @@
 		"prepublishOnly": "pinst --disable",
 		"test": "jest --coverage",
 		"test-watch": "jest --watch",
-		"typecheck": "tsc --noEmit"
+		"typecheck": "tsc"
 	},
 	"source": "__PLACEHOLDER__",
 	"targets": {
