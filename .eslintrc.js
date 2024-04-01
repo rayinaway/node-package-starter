@@ -17,7 +17,7 @@ module.exports = {
 		project: './tsconfig.json'
 	},
 	settings: {
-		'import/internal-regex': `^~/.*$`
+		'import/internal-regex': `^~/`
 	},
 	env: {
 		node: true,
