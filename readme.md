@@ -50,8 +50,7 @@ _Since there's no hidden configuration or high-level encapsulating tools, you're
 ## Package scripts
 
 - `build` typechecks using `typecheck` and, if successful, builds the package.
-- `lint` runs every `lint:*` script.
-  - `lint:ts` lints TypeScript files in _`src`_.
+- `lint` lints TypeScript files in _`src`_.
 - `postinstall`, `postpublish`, and `prepublishOnly` are service scripts for husky to install correctly. Not to be altered.
 - `test` runs tests and generates a test coverage report.
 - `test-watch` runs tests continuously to test changes being made to files.
