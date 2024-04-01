@@ -4,7 +4,7 @@
 
 ### Other
 
-- pretty-quick replaced with lint-staged.
+- pretty-quick replaced with [lint-staged](https://github.com/lint-staged/lint-staged).
 - Package dependencies updated.
 
 ## [v1.1.1](https://github.com/rayinaway/node-package-starter/compare/v1.1.0...v1.1.1)
