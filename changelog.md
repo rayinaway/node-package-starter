@@ -22,7 +22,7 @@
 ### Features
 
 - [TypeScript reset](https://www.npmjs.com/package/@total-typescript/ts-reset) added.
-- Asset mocking implemented.
+- Asset module mocking implemented.
 
 ### Other
 
@@ -60,7 +60,7 @@
 
 ### Other
 
-- Empty _`src`_ directory will no longer get untracked.
+- Empty _`src`_ directory can no longer get untracked by Git.
 
 ## [v1.0.2](https://github.com/rayinaway/node-package-starter/compare/v1.0.1...v1.0.2)
 
