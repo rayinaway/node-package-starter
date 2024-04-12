@@ -3,6 +3,7 @@
 A highly opinionated starter project for developing Node.js packages. Features:
 
 - [TypeScript](https://www.typescriptlang.org) as the development language
+  - [TS Reset](https://www.totaltypescript.com/ts-reset) for better builtin typing
 - [ESLint](https://eslint.org) linter
 - [Jest](https://jestjs.io) testing framework
 - [Parcel](https://parceljs.org) builder
