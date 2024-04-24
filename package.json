@@ -32,7 +32,7 @@
 	},
 	"scripts": {
 		"build": "npm run typecheck && node ./scripts/prebuild.js && parcel build --no-autoinstall --public-url \".\" --no-source-maps",
-		"lint": "eslint \"./src/**/*.{ts,tsx}\"",
+		"lint": "eslint .",
 		"postinstall": "is-ci || husky",
 		"postpublish": "pinst --enable",
 		"prepublishOnly": "pinst --disable",

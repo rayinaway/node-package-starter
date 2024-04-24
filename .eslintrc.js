@@ -14,6 +14,7 @@ module.exports = {
 	plugins: ['eslint-plugin-prettier'],
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
+		tsconfigRootDir: __dirname,
 		project: './tsconfig.json'
 	},
 	settings: {
@@ -65,5 +66,6 @@ module.exports = {
 		'prettier/prettier': 'error',
 		'promise/catch-or-return': 'off',
 		'quotes': ['error', 'single']
-	}
+	},
+	files: ['./src/**/*.ts', './src/**/*.tsx']
 };
