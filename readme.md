@@ -4,13 +4,12 @@ A highly opinionated starter project for developing Node.js packages. Features:
 
 - [TypeScript](https://www.typescriptlang.org) as the development language
   - [TS Reset](https://www.totaltypescript.com/ts-reset) for better builtin typing
-- [ESLint](https://eslint.org) linter
+- [Biome](https://biomejs.dev) linter and formatter
 - [Jest](https://jestjs.io) testing framework
 - [Parcel](https://parceljs.org) builder
 - [EditorConfig](https://editorconfig.org) for easier code editor configuration
-- [Prettier](https://prettier.io) for code formatting consistency
 - [commitlint](https://commitlint.js.org) for commit message consistency
-- [husky](https://typicode.github.io/husky) for enforcing the above consistencies on the Git level
+- [husky](https://typicode.github.io/husky) for enforcing project quality on the Git level
 
 Made by [Ray](https://rayinaway.github.io).
 
@@ -51,7 +50,7 @@ _Since there's no hidden configuration or high-level encapsulating tools, you're
 ## Package scripts
 
 - `build` typechecks using `typecheck` and, if successful, builds the package.
-- `lint` lints TypeScript files in _`src`_.
+- `lint` lints TypeScript and JavaScript files.
 - `postinstall`, `postpublish`, and `prepublishOnly` are utility scripts for husky to install correctly. Not to be altered.
 - `test` runs tests and generates the test coverage report.
 - `test-watch` runs tests continuously to test changes being made to files.
