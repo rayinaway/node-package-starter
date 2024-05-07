@@ -40,7 +40,7 @@ _Since there's no hidden configuration or high-level encapsulating tools, you're
 ## Project structure
 
 - Package source files belong in the _`src`_ directory, the exact structure of which is up to you.
-  - For convenience, Parcel includes the _`~`_ path alias that points to the directory where _`package.json`_ is located. For example, to import _`src/module.ts`_ from anywhere in the project you can use the _`~/src/module.ts`_ path. Similarly, _`@`_ points to _`~/src`_.
+  - For convenience, Parcel includes the _`~`_ path alias that points to the directory where _`package.json`_ is located. For example, to import _`src/module.ts`_ from anywhere in the project you can use the _`~/src/module.ts`_ path. Similarly, _`~~`_ points to _`~/src`_.
   - Test files should have the _`.test.js`_ extension to get detected by Jest.
 - Configuration files belong in the project root. Each tool's configuration should be put in a dedicated file, if possible.
 - The _`scripts`_ directory contains Node.js scripts to run, manually or automatically.
